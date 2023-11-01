@@ -24,4 +24,7 @@ items:
   - name: Detect GitHub misconfigurations
     uses: >-
       jitsecurity-controls/jit-plans/items/third_party_app/item-github-misconfiguration.yml@latest
+  - name: Verify that MFA for your GitHub organization is enabled
+    uses: >-
+      jitsecurity-controls/jit-plans/items/third_party_app/item-mfa-scm.yml@latest
 
